@@ -765,6 +765,9 @@ blockquote::before {
 	-webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; -ms-transition: all ease 0.5s; -o-transition: all ease 0.5s; transition: all ease 0.5s;
 	transform: translateX(-50%);
 }
+.rounded-corners {
+    border-radius: 25px;
+}
 .header-shadow {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
