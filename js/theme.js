@@ -50,6 +50,10 @@
 		$( ".section-parallax" ).each(function() {
 			$(this).css({ "background-image" : "url("+ $(this).data("src") +")" });	
 		});
+		window.addEventListener('load', function() {
+			var loader = document.getElementById('page-loader');
+			loader.style.display = 'none';
+		});
 		
 		/* Animation Appear */
 		$('.animated').appear(function() {
